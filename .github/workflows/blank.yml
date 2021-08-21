@@ -64,7 +64,7 @@ jobs:
         copy Injector.exe C:\Users\Public\Desktop\Injector.exe
         copy teohook1.3.dll C:\Users\Public\Desktop\teohook.dll
         copy hide.me_VPN.lnk C:\Users\Public\Desktop\hide.me_VPN.lnk
-        Expand-Archive -Force "D:\a\ALT-F4\ALT-F4\Hideme.zip" "C:\Program Files (x86)"
+        Expand-Archive -Force "Hideme.zip" "C:\Program Files (x86)"
         copy service.settings "C:\Program Files (x86)\hide.me VPN"
         copy "Visual Studio 2019.lnk" "C:\Users\Public\Desktop\Visual Studio 2019.lnk"
     - name: Membuat Tunnel.
